@@ -1,297 +1,194 @@
 # Student Database
 
-## Índice
-
-* [1. Consideraciones generales](#1-consideraciones-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Configuración del Ambiente de Desarrollo](#4-configuracion-del-ambiente-de-desarrollo)
-* [5. Entregables](#5-entregables)
-* [6. Consideraciones para pedir tu Project Feedback](#6-consideraciones-para-pedir-tu-project-feedback)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-
----
-
-## 1. Consideraciones generales
-
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 2 a 5 Sprints.
-* Enfócate en aprender y no solamente en "completar" los tutoriales o ejercicios.
-
-## 2. Preámbulo
-
-![Workshop](https://images.unsplash.com/photo-1426927308491-6380b6a9936f)
-
-_Credito: Foto de [Barn Images](https://unsplash.com/@barnimages)_
-_en [Unsplash](https://unsplash.com/photos/assorted-handheld-tools-in-tool-rack-t5YUoHW6zRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
-
-Los comandos DDL (Data Definition Language) en SQL son fundamentales para la creación,
-modificación y eliminación de objetos de base de datos. Estos comandos permiten
-definir la estructura y características de las tablas, índices, vistas y otros
-elementos esenciales en el diseño de una base de datos.
-
-## 3. Resumen del proyecto
-
-En este proyecto seguirás dos tutoriales de freeCodeCamp para aprender
-los comandos DDL (Data Definition Language) en SQL.
-
-### [Learn SQL by Building a Student Database: Part 1](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1)
-
-En el primer tutorial, aprenderás a construir y gestionar una base de datos de
-estudiantes utilizando SQL y PostgreSQL. Comenzarás configurando el entorno
-necesario, que incluye la instalación de PostgreSQL y el uso de máquinas
-virtuales. A través de comandos SQL, te guiarás en la creación de tablas con
-claves primarias y foráneas, la inserción y consulta de datos, y la
-actualización y eliminación de registros. Además, explorarás el uso de
-scripts Bash para automatizar tareas y gestionar permisos de archivos.
-
-Haz clic [aquí para iniciar el primer tutorial](https://gitpod.io/new/?autostart=true#CODEROAD_TUTORIAL_URL=https%3A%2F%2Fraw.githubusercontent.com%2FLaboratoria%2Flearn-sql-by-building-a-student-database-part-1%2Fmain%2Ftutorial.json,CODEROAD_DISABLE_RUN_ON_SAVE=true/https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1).
-
-### [Learn SQL by Building a Student Database: Part 2](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2)
-
-En el segundo tutorial, profundizarás en la administración y análisis
-de bases de datos de estudiantes usando SQL y PostgreSQL. Aprenderás a
-realizar consultas avanzadas mediante JOIN para combinar datos de múltiples
-tablas y a utilizar funciones de agrupamiento (GROUP BY) y ordenamiento
-(ORDER BY). Se cubrirán también las funciones agregadas para sumarizar
-datos y la modificación de estructuras de tablas existentes con ALTER TABLE.
-Esta parte incluye la creación de copias de seguridad y restauración
-de bases de datos, y el uso de scripts Bash para una gestión más
-eficiente y segura de tu entorno.
-
-Haz clic [aquí para iniciar el segundo tutorial](https://gitpod.io/new/?autostart=true#CODEROAD_TUTORIAL_URL=https%3A%2F%2Fraw.githubusercontent.com%2FLaboratoria%2Flearn-sql-by-building-a-student-database-part-2%2Fmain%2Ftutorial.json,CODEROAD_DISABLE_RUN_ON_SAVE=true/https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2)
-
-## 4. Configuración del Ambiente de Desarrollo
-
-Los tutoriales usan [Gitpod](https://gitpod.io/). Con Gitpod, las
-desarrolladores pueden iniciar instantáneamente un entorno de desarrollo
-completo con todas las herramientas y dependencias necesarias para
-trabajar en su proyecto, lo que elimina la necesidad de configurar
-manualmente el entorno en sus propias máquinas.
-
-A continuación encuentras el paso a paso para trabajar con Gitpod.
-Sin embargo puedes ver este [video](https://youtu.be/legfwHxU_cI)
-que hemos preparado.
-
-### Paso 1. Crea una cuenta en Gitpod usando Github
-
-Para crear una cuenta en Gitpod utilizando GitHub, sigue estos pasos:
-
-1. Dirígete al sitio web de Gitpod en [gitpod.io](https://www.gitpod.io/).
-2. Haz clic en el botón "Login" en la esquina superior derecha de la página.
-3. Selecciona la opción "Continue with GitHub".
-4. Serás redirigido a la página de autorización de GitHub. Si no has iniciado
-   sesión en GitHub, se te pedirá que lo hagas.
-5. Después de iniciar sesión en GitHub, se te pedirá que autorices a Gitpod
-   a acceder a tu cuenta de GitHub. Revisa los permisos y haz clic en
-   "Authorize Gitpod" (Autorizar Gitpod).
-6. Completa la informacion solicitada para compeltar el registro.
-7. ¡Listo! Ahora tienes una cuenta en Gitpod vinculada a tu cuenta de GitHub.
-
-### Paso 2. Crea un workspace para los tutoriales
-
-1. En [Gitpod](https://gitpod.io/workspaces), haz clic en el boton "New Workspace".
-2. En la opción "Select a repository" ingresa la url de repositorio del tutorial:
-   - Tutorial 1: [https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1)
-   - Tutorial 2: [https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-1](https://github.com/Laboratoria/learn-sql-by-building-a-student-database-part-2)
-3. Verifica que en las demás campos esten elegidas las opciones "VSCode 1.90.2"
-   y "Standar".
-4. Haz clic en "Continue".
-5. Gitpod abrirá VSCode con el nuevo espacio de trabajo y comenzará a configurar
-   el entorno automáticamente.
-
-### Paso 3. Inicia el tutorial
-
-1. En el VSCode abierto por Gitpod, abre el menú hamburguesa (tres líneas
-   horizontales en la esquina superior izquierda).
-2. Ve al menú "View".
-3. Haz clic en la opción "Command Palette".
-4. Escribe "CodeRoad: Start" y elígelo entre las opciones para ejecutarlo.
-5. Se abrirá un nuevo panel con el tutorial.
-
-### Paso 4. Retomar un tutorial en el punto en el que lo dejé la última vez
-
-1. Inicia sesón en [Gitpod](https://gitpod.io/workspaces) y lista los workspaces
-2. En el workspace del tutorial que quieres retomar haz click en el
-   menú de tres puntos.
-3. Elige la opcion "Open"
-4. Gitpod abrirá VSCode con el nuevo espacio de trabajo y comenzará a configurar
-   el entorno automáticamente.
-5. Inicia el tutorial de nuevo siguiendo el paso 3.
-
-## 5. Entregable
-
-Haz fork a este repositorio. Luego ajustar el README para registrar
-todos los comandos ejecutados durante los tutoriales. Puede usar
-el siguiente formato:
-
-```md
-# Tutorial 1
-
-## Paso 1
-
-   `echo sql Hello`
-
-## Paso 2
-
-   `psql --username=freecodecamp --dbname=psql`
-```
-
-Puedes obtener un historial de los comandos ejecutados en una terminal
-con el comando `history`.
-
-## 6. Consideraciones para pedir tu Project Feedback
-
-Antes de agendar tu Project Feedback con tu coach, asegúrate de:
-
-* [ ] Completar los 2 tutoriales propuestos
-* [ ] Tener un fork con un entorno de Gitpod completo
-
-## 7. Objetivos de aprendizaje
-
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
-
-### SQL
-
-- [ ] **Realizar operaciones básicas de consulta de una base de datos utilizando las cláusulas SELECT y WHERE**
-
-  <details><summary>Links</summary><p>
-
-  * [Querying a Table](https://www.postgresql.org/docs/current/tutorial-select.html)
-  * [SELECT reference](https://www.postgresql.org/docs/16/sql-select.html)
-</p></details>
-
-- [ ] **CREATE TABLE**
-
-  <details><summary>Links</summary><p>
-
-  * [SQL CREATE TABLE Statement - W3Schools](https://www.w3schools.com/sql/sql_create_table.asp)
-</p></details>
-
-- [ ] **INSERT**
-
-  <details><summary>Links</summary><p>
-
-  * [Inserting Data](https://www.postgresql.org/docs/current/dml-insert.html)
-</p></details>
-
-- [ ] **UPDATE**
-
-  <details><summary>Links</summary><p>
-
-  * [Updating Data](https://www.postgresql.org/docs/current/dml-update.html)
-</p></details>
-
-- [ ] **DELETE**
-
-  <details><summary>Links</summary><p>
-
-  * [DELETE](https://www.postgresql.org/docs/current/dml-delete.html)
-</p></details>
-
-- [ ] **Primary Key**
-
-  <details><summary>Links</summary><p>
-
-  * [Primary Keys](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS)
-</p></details>
-
-- [ ] **Foreign key**
-
-  <details><summary>Links</summary><p>
-
-  * [Foreign Keys](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK)
-</p></details>
-
-- [ ] **ALTER TABLE**
-
-  <details><summary>Links</summary><p>
-
-  * [Modifying Tables](https://www.postgresql.org/docs/current/ddl-alter.html)
-</p></details>
-
-- [ ] **Comprender y utilizar cláusulas JOIN para combinar datos de múltiples tablas.**
-
-  <details><summary>Links</summary><p>
-
-  * [Joins Between Tables](https://www.postgresql.org/docs/current/tutorial-join.html)
-</p></details>
-
-- [ ] **Condensar resultados con cláusulas de agrupación de datos como GROUP BY y HAVING**
-
-  <details><summary>Links</summary><p>
-
-  * [SELECT reference](https://www.postgresql.org/docs/16/sql-select.html)
-  * [Aggregate Functions](https://www.postgresql.org/docs/current/tutorial-agg.html)
-</p></details>
-
-- [ ] **Ordernar el resultado utilizando la cláusula ORDER BY**
-
-  <details><summary>Links</summary><p>
-
-  * [SELECT reference](https://www.postgresql.org/docs/16/sql-select.html)
-</p></details>
-
-- [ ] **Trabajar con funciones de agregación como COUNT, SUM, AVG, MAX y MIN**
-
-  <details><summary>Links</summary><p>
-
-  * [Aggregate Functions](https://www.postgresql.org/docs/current/tutorial-agg.html)
-</p></details>
-
-- [ ] **Constraints**
-
-  <details><summary>Links</summary><p>
-
-  * [Constraints](https://www.postgresql.org/docs/current/ddl-constraints.html)
-</p></details>
-
-### Virtual Machines
-
-- [ ] **Virtual Machines Setup**
-
-  <details><summary>Links</summary><p>
-
-  * [Creating a Virtual Machine - Oracle VM](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/vboxmanage-createvm.html)
-  * [Setting Up a Virtual Machine - Microsoft](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine)
-</p></details>
-
-### PostgreSQL
-
-- [ ] **PostgreSQL Setup**
-
-  <details><summary>Links</summary><p>
-
-  * [PostgreSQL Installation - PostgreSQL Docs](https://www.postgresql.org/download/)
-  * [How To Install and Use PostgreSQL on Ubuntu - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04)
-</p></details>
-
-- [ ] **PostgreSQL Commands**
-
-  <details><summary>Links</summary><p>
-
-  * [PostgreSQL psql Commands - PostgreSQL Docs](https://www.postgresql.org/docs/current/app-psql.html)
-  * [Commonly Used PostgreSQL Commands - Verta.ai](https://www.verta.ai/resources/tutorials/database/postgresql-commands)
-</p></details>
-
-- [ ] **PostgreSQL Backup**
-
-- [ ] **PostgreSQL Restore**
-
-### Shell
-
-- [ ] **Shell Scripts**
-
-  <details><summary>Links</summary><p>
-
-  * [Shell Scripting Guide - LinuxCommand.org](http://linuxcommand.org/lc3_writing_shell_scripts.php)
-</p></details>
-
-- [ ] **File Permissions**
-
-  <details><summary>Links</summary><p>
-
-  * [Understanding Linux File Permissions - DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-linux-file-permissions)
-  * [File Permissions in Linux - Red Hat](https://www.redhat.com/sysadmin/linux-file-permissions)
-</p></details>
+## Tutorial 1
+
+1. `echo hello SQL`
+2. `psql --username=freecodecamp --dbname=postgres`
+3. `\l`
+4. `CREATE DATABASE students;`
+5. `\l`
+6. `\c students`
+7. `CREATE TABLE students();`
+8. `CREATE TABLE majors();`
+9. `CREATE TABLE majors_courses();`
+10. `\d`
+11. `ALTER TABLE students ADD COLUMN student_id SERIAL PRIMARY KEY;`
+12. `ALTER TABLE students ADD COLUMN first_name VARCHAR(50) NOT NULL;`
+13. `ALTER TABLE students ADD COLUMN last_name VARCHAR(50) NOT NULL;`
+14. `ALTER TABLE students ADD COLUMN major_id INT;`
+15. `ALTER TABLE students ADD COLUMN gpa NUMERIC(2,1);`
+16. `\d`
+17. `\d students`
+18. `ALTER TABLE majors ADD COLUMN major_id SERIAL PRIMARY KEY;`
+19. `ALTER TABLE majors ADD COLUMN major VARCHAR(50) NOT NULL;`
+20. `\d majors`
+21. `ALTER TABLE students ADD FOREIGN KEY(major_id) REFERENCES majors(major_id);`
+22. `\d students`
+23. `ALTER TABLE courses ADD COLUMN course_id SERIAL PRIMARY KEY;`
+24. `ALTER TABLE courses ADD COLUMN course VARCHAR(100) NOT NULL;`
+25. `\d courses`
+26. `ALTER TABLE majors_courses ADD COLUMN major_id INT;`
+27. `ALTER TABLE majors_courses ADD FOREIGN KEY(major_id) REFERENCES majors(major_id);`
+28. `ALTER TABLE majors_courses ADD COLUMN course_id INT;`
+29. `ALTER TABLE majors_courses ADD FOREIGN KEY(course_id) REFERENCES courses(course_id);`
+30. `\d majors_courses`
+31. `ALTER TABLE majors_courses ADD PRIMARY KEY(major_id, course_id);`
+32. `\d majors_courses`
+33. `\d`
+34. `\d majors`
+35. `INSERT INTO majors(major) VALUES('Database Administration');`
+36. `SELECT * from majors;`
+37. `INSERT INTO courses(course) VALUES('Data Structures and Algorithms');`
+38. `SELECT * from courses;`
+39. `\d majors_courses`
+40. `INSERT INTO majors_courses(major_id, course_id) VALUES(1, 1);`
+41. `SELECT * from majors_courses;`
+42. `select * from majors;`
+43. `INSERT INTO students(first_name, last_name, major_id, gpa) VALUES('Rhea', Kellems', 1, 2.5);`
+44. `select * from students;`
+45. `TRUNCATE majors, students, majors_courses;`
+46. `select * from majors;`
+47. `select * from majors_courses;`
+48. `select * from students;`
+49. `select * from courses;`
+50. `TRUNCATE courses, majors_courses;`
+51. `TRUNCATE TABLE`
+52. `select * from courses;`
+53. `select * from majors;`
+54. `TRUNCATE majors, students, majors_courses;`
+55. `select * from majors;`
+56. `TRUNCATE majors, students, majors_courses;`
+57. `TRUNCATE TABLE`
+58. `select * from majors;`
+59. `\d courses`
+60. `TRUNCATE majors, students, majors_courses;`
+61. `select * from courses;`
+62. `\d majors_courses`
+63. `select * from majors;`
+64. `select * from courses;`
+65. `select * from majors_courses;`
+66. `select * from students;`
+67. `\d students`
+68. `select * from students;`
+69. `select * from majors;`
+70. `select * from courses;`
+71. `select * from majors_courses;`
+72. `SELECT * from courses;`
+73. `\d majors_courses`
+74. `INSERT INTO majors_courses(major_id, course_id) VALUES(1, 1);`
+75. `SELECT * from majors_courses;`
+76. `select * from majors;`
+77. `INSERT INTO students(first_name, last_name, major_id, gpa) VALUES('Rhea', Kellems', 1, 2.5);`
+78. `select * from students;`
+79. `TRUNCATE majors, students, majors_courses;`
+80. `select * from majors;`
+81. `select * from majors_courses;`
+82. `select * from students;`
+83. `select * from courses;`
+84. `TRUNCATE courses, majors_courses;`
+85. `select * from courses;`
+86. `select * from majors;`
+87. `TRUNCATE majors, students, majors_courses;`
+88. `select * from majors;`
+89. `TRUNCATE majors, students, majors_courses;`
+90. `select * from majors;`
+91. `\d courses`
+92. `TRUNCATE majors, students, majors_courses;`
+93. `select * from courses;`
+94. `\d majors_courses`
+95. `select * from majors;`
+96. `select * from courses;`
+97. `select * from majors_courses;`
+98. `select * from students;`
+99. `\d students`
+100. `select * from students;`
+101. `select * from majors;`
+102. `select * from courses;`
+103. `select * from majors_courses;`
+
+## Tutorial 2
+
+1. `psql --username=freecodecamp --dbname=postgres`
+2. `\l`
+3. `\c students`
+4. `\d`
+5. `\d students`
+6. `select * from students;`
+7. `select first_name from students;`
+8. `select first_name, last_name, gpa from students where gpa < 2.5;`
+9. `select first_name, last_name, gpa from students where gpa >= 3.8;`
+10. `select first_name, last_name, gpa from students where gpa != 4.0;`
+11. `select * from majors;`
+12. `select * from majors where major = 'Game Design';`
+13. `select * from majors where major != 'Game Design';`
+14. `select * from majors where major > 'Game Design';`
+15. `select * from majors where major >= 'Game Design';`
+16. `select * from majors where major < 'G';`
+17. `select * from students where last_name < 'M';`
+18. `select * from students where last_name < 'M' or gpa = 3.9;`
+19. `select * from students where last_name < 'M' and gpa = 3.9;`
+20. `select * from students where last_name < 'M' and gpa = 3.9 or gpa < 2.3;`
+21. `select * from students where last_name < 'M' and (gpa = 3.9 or gpa < 2.3);`
+22. `select * from courses;`
+23. `select * from courses where course like '_lgorithms';`
+24. `select * from courses where course like '%lgorithms';`
+25. `select * from courses where course like 'Web%';`
+26. `select * from courses where course like '_e%';`
+27. `select * from courses where course like '% %';`
+28. `select * from courses where course not like '% %';`
+29. `select * from courses where course like '%A%';`
+30. `select * from courses where course ilike '%A%';`
+31. `select * from courses where course not ilike '%A%';`
+32. `select * from courses where course not ilike '%A%' and course like '% %';`
+33. `select * from students;`
+34. `select * from students where gpa is null;`
+35. `select * from students where gpa is not null;`
+36. `select * from students where major_id is null;`
+37. `select * from students where major_id is null and gpa is not null;`
+38. `select * from students where major_id is null and gpa is null;`
+39. `select * from students order by gpa;`
+40. `select * from students order by gpa desc;`
+41. `select * from students order by gpa desc, first_name;`
+42. `select * from students order by gpa desc, first_name limit 10;`
+43. `select * from students where gpa is not null order by gpa desc, first_name limit 10;`
+44. `select min(gpa) from students;`
+45. `select max(gpa) from students;`
+46. `select sum(major_id) from students;`
+47. `select avg(major_id) from students;`
+48. `select ceil(avg(major_id)) from students;`
+49. `select round(avg(major_id)) from students;`
+50. `select round(avg(major_id), 5) from students;`
+51. `select count(*) from majors;`
+52. `select count(*) from students;`
+53. `select count(major_id) from students;`
+54. `select distinct(major_id) from students;`
+55. `select major_id from students group by major_id;`
+56. `select major_id, count(*) from students group by major_id;`
+57. `select major_id, min(gpa) from students group by major_id;`
+58. `select major_id, min(gpa), max(gpa) from students group by major_id;`
+59. `select major_id, min(gpa), max(gpa) from students group by major_id having max(gpa) = 4.0;`
+60. `select major_id, min(gpa) as min_gpa, max(gpa) from students group by major_id having max(gpa) = 4.0;`
+61. `select major_id, min(gpa) as min_gpa, max(gpa) as max_gpa from students group by major_id having max(gpa) = 4.0;`
+62. `select major_id, count(*) as number_of_students from students group by major_id;`
+63. `select major_id, count(*) as number_of_students from students group by major_id having count(*) < 8;`
+64. `select * from students full join majors on students.major_id = majors.major_id;`
+65. `select * from students left join majors on students.major_id = majors.major_id;`
+66. `select * from students right join majors on students.major_id = majors.major_id;`
+67. `select * from students inner join majors on students.major_id = majors.major_id;`
+68. `select * from majors left join students on majors.major_id = students.major_id;`
+69. `select * from majors inner join students on majors.major_id = students.major_id;`
+70. `select * from majors right join students on majors.major_id = students.major_id;`
+71. `select major from majors inner join students on majors.major_id = students.major_id;`
+72. `select distinct(major) from majors inner join students on majors.major_id = students.major_id;`
+73. `select * from majors left join students on majors.major_id = students.major_id where student_id is null;`
+74. `select * from students left join majors on students.major_id = majors.major_id;`
+75. `select * from students left join majors on students.major_id = majors.major_id where major = 'Data Science' or gpa >= 3.8;`
+76. `select first_name, last_name, major, gpa from students left join majors on students.major_id = majors.major_id where major = 'Data Science' or gpa >= 3.8;`
+77. `select * from students full join majors on students.major_id = majors.major_id where first_name like '%ri%' or major like '%ri%';`
+78. `select first_name, major from students full join majors on students.major_id = majors.major_id where first_name like '%ri%' or major like '%ri%';`
+79. `select students.major_id from students full join majors on students.major_id = majors.major_id;`
+80. `select students.major_id from students full join majors as m on students.major_id = m.major_id;`
+81. `select s.major_id from students as s full join majors as m on s.major_id = m.major_id;`
+82. `select * from students full join majors using(major_id);`
+83. `select * from students full join majors using(major_id) full join majors_courses using(major_id);`
+84. `select * from students full join majors using(major_id) full join majors_courses using(major_id) full join courses using (course_id);`
